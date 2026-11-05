@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" fill="none">
+  <defs>
+    <linearGradient id="blueRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0369A1" />
+    </linearGradient>
+    <radialGradient id="navyCenter9" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0F243E" />
+      <stop offset="100%" stop-color="#071220" />
+    </radialGradient>
+  </defs>
+  <!-- Outer Ring -->
+  <circle cx="100" cy="100" r="92" stroke="url(#blueRim)" stroke-width="4" fill="url(#navyCenter9)" />
+  <circle cx="100" cy="100" r="82" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1.5" stroke-dasharray="4 3" fill="none" />
+  
+  <!-- Quality Checkmark & Ribbon Icon -->
+  <circle cx="100" cy="62" r="22" stroke="url(#blueRim)" stroke-width="2.5" fill="none" />
+  <path d="M92 62 L98 68 L109 56" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Typography -->
+  <text x="100" y="122" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">ISO 9001</text>
+  <text x="100" y="140" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#38BDF8" text-anchor="middle" letter-spacing="1.5">QUALITY MANAGEMENT</text>
+  <text x="100" y="156" font-family="'Inter', sans-serif" font-size="8" font-weight="600" fill="#94A3B8" text-anchor="middle" letter-spacing="2">SYSTEM ASSURED</text>
+  <text x="100" y="172" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="600" fill="#64748B" text-anchor="middle">BRITISH ASSESSMENT BUREAU</text>
+</svg>

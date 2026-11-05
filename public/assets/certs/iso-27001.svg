@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" fill="none">
+  <defs>
+    <linearGradient id="goldRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2B857" />
+      <stop offset="50%" stop-color="#C59B27" />
+      <stop offset="100%" stop-color="#8F6B12" />
+    </linearGradient>
+    <radialGradient id="navyCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#11253E" />
+      <stop offset="100%" stop-color="#071220" />
+    </radialGradient>
+  </defs>
+  <!-- Outer Ring -->
+  <circle cx="100" cy="100" r="92" stroke="url(#goldRim)" stroke-width="4" fill="url(#navyCenter)" />
+  <circle cx="100" cy="100" r="82" stroke="rgba(226, 184, 87, 0.4)" stroke-width="1.5" stroke-dasharray="4 3" fill="none" />
+  
+  <!-- Crown / Shield Icon -->
+  <path d="M100 36 L118 48 L114 74 C114 88 100 98 100 98 C100 98 86 88 86 74 L82 48 Z" fill="none" stroke="url(#goldRim)" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M100 48 L104 60 L100 70 L96 60 Z" fill="#E2B857" />
+
+  <!-- Typography -->
+  <text x="100" y="122" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">ISO 27001</text>
+  <text x="100" y="140" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#E2B857" text-anchor="middle" letter-spacing="1.5">INFORMATION SECURITY</text>
+  <text x="100" y="156" font-family="'Inter', sans-serif" font-size="8" font-weight="600" fill="#94A3B8" text-anchor="middle" letter-spacing="2">MANAGEMENT SYSTEM</text>
+  <text x="100" y="172" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="600" fill="#64748B" text-anchor="middle">CERTIFIED AUDITED</text>
+</svg>

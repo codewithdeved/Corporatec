@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" fill="none">
+  <defs>
+    <linearGradient id="purpleRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#4C1D95" />
+    </linearGradient>
+    <radialGradient id="navyCenterFCA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1B1736" />
+      <stop offset="100%" stop-color="#080716" />
+    </radialGradient>
+  </defs>
+  <!-- Outer Ring -->
+  <circle cx="100" cy="100" r="92" stroke="url(#purpleRim)" stroke-width="4" fill="url(#navyCenterFCA)" />
+  <circle cx="100" cy="100" r="82" stroke="rgba(167, 139, 250, 0.4)" stroke-width="1.5" stroke-dasharray="4 3" fill="none" />
+  
+  <!-- Scale / Vault Icon -->
+  <path d="M100 40 L100 80 M80 54 L120 54 M80 54 L72 74 L88 74 Z M120 54 L112 74 L128 74 Z" stroke="url(#purpleRim)" stroke-width="2.5" stroke-linejoin="round" fill="none" />
+
+  <!-- Typography -->
+  <text x="100" y="122" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">FCA &amp; DORA</text>
+  <text x="100" y="140" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#A78BFA" text-anchor="middle" letter-spacing="1.5">REGULATORY COMPLIANT</text>
+  <text x="100" y="156" font-family="'Inter', sans-serif" font-size="8" font-weight="600" fill="#94A3B8" text-anchor="middle" letter-spacing="2">DATA ARCHIVAL &amp; STORAGE</text>
+  <text x="100" y="172" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="600" fill="#64748B" text-anchor="middle">SOVEREIGN UK REPOSITORY</text>
+</svg>
